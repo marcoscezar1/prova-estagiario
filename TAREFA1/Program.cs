@@ -1,4 +1,5 @@
 ﻿using System;
+using Modelos;
 
 namespace TAREFA1
 {
@@ -6,7 +7,7 @@ namespace TAREFA1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }

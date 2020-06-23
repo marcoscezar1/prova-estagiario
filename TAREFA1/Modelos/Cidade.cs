@@ -10,8 +10,15 @@ namespace Modelos
         private int populacao;
 
         public Cidade(string nomeDacidade, int populacao){
-            this.nomeDacidade = nomeDacidade;
+            this.NomeDacidade = nomeDacidade;
             this.populacao = populacao;
+        }
+
+        public string getCidade (){
+            return this.nomeDacidade;
+        }
+        public int getPopulacao(){
+            return this.populacao;
         }
     }
 }
