@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Modelos;
 using System;
 
-namespace TAREFA3
+namespace EntradaESaida
 {
     class EscritorCSV
     {
@@ -26,7 +26,7 @@ namespace TAREFA3
                     foreach (Endereco endereco in listaDeEnderecos)
                     {
                         string linha = $"{endereco.Cep}; {endereco.Logradouro}; {endereco.Complemento}; {endereco.Bairro}; {endereco.Localidade};"+ 
-                        $"{endereco.Uf}; {endereco.Unidade}; {endereco.Ibge}; {endereco.Bairro}; {endereco.Localidade}; {endereco.Uf}; {endereco.Unidade}; {endereco.Gia}" ;
+                        $"{endereco.Uf}; {endereco.Unidade}; {endereco.Ibge}; {endereco.Gia}" ;
                         escritor.WriteLine(linha);
                     }
                     return 1;
