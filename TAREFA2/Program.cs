@@ -14,6 +14,7 @@ namespace TAREFA2
             
             BubbleSort ordenador = new BubbleSort();
             ordenador.orderna(listaDeCidades);
+            Console.WriteLine(listaDeCidades[0].getPopulacao());
             
             escritorCSVNovoMapa.EscreverTodasAsLinhas(leitorCSVMapa.getCabecalho(), listaDeCidades);
         }

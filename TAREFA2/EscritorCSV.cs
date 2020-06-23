@@ -27,7 +27,6 @@ namespace TAREFA2
                     {
                         string linha = $"{cidade.getCidade()}; {cidade.getPopulacao()}";
                         escritor.WriteLine(linha);
-                        Console.WriteLine(linha);
                     }
                     return 1;
                 }
