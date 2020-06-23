@@ -17,14 +17,12 @@ namespace TAREFA2
         {
             for (int i = 0; i < listaDeCidades.Count - 1; i++)
             {
-                Console.WriteLine("oi");
                 for (int j = 0; j < listaDeCidades.Count - 1; j++)
                 {
                     Cidade elementoEscolhido = listaDeCidades[j];
                     Cidade proximoElemento = listaDeCidades[j + 1];
                     if (elementoEscolhido.getPopulacao() > proximoElemento.getPopulacao())
                     {
-                        Console.WriteLine(elementoEscolhido.getPopulacao() + " " + proximoElemento.getPopulacao());
                         listaDeCidades[j] = proximoElemento;
                         listaDeCidades[j + 1] = elementoEscolhido;
                     }
