@@ -1,6 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using EntradaESaida;
 using Modelos;
+using Ordenadores;
 
 namespace TAREFA2
 {
@@ -10,7 +11,7 @@ namespace TAREFA2
         {
             LeitorCSV leitorCSVMapa = new LeitorCSV(@"../mapa.csv");
             EscritorCSV escritorCSVNovoMapa = new EscritorCSV(@"mapa2.csv");
-            List<Cidade> listaDeCidades = leitorCSVMapa.lerTodasAsLinhas();
+            List<Cidade> listaDeCidades = leitorCSVMapa.LerTodasAsLinhas();
             
             BubbleSort ordenador = new BubbleSort();
             ordenador.orderna(listaDeCidades);

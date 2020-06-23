@@ -1,9 +1,9 @@
 using System.IO;
 using System.Collections.Generic;
 using Modelos;
-using System;
 
-namespace TAREFA2
+
+namespace EntradaESaida
 {
     class EscritorCSV
     {
