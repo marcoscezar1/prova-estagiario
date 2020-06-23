@@ -15,12 +15,13 @@ namespace TAREFA1
 
         //Função que escreve cada item de uma lista em uma linha no padrão csv
         //Ela tem como retorno o status da operação. Com isso é possível saber se ela foi bem sucessedida
-        public int EscreverTodasAsLinhas(List<Cidade> listaDeCidades)
+        public int EscreverTodasAsLinhas(string cabecalho, List<Cidade> listaDeCidades)
         {
             if (listaDeCidades.Equals(null))
             {
                 using (var escritor = new StreamWriter(caminhoArquivo))
                 {
+                    escritor.WriteLine(cabecalho);
                     foreach (Cidade cidade in listaDeCidades)
                     {
                         string linha = $"{cidade.getCidade()}; {cidade.getPopulacao()}";

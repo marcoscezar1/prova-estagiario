@@ -9,9 +9,14 @@ namespace TAREFA1
     {
         //Atributo que guarda o caminho do arquivo a ser lido
         private string caminhoArquivo;
+        private string cabecalho;
         public LeitorCSV(string caminhoArquivo)
         {
             this.caminhoArquivo = caminhoArquivo;
+        }
+        
+        public string getCabecalho(){
+            return this.cabecalho;
         }
 
         /*
@@ -25,6 +30,8 @@ namespace TAREFA1
                 using (var leitor = new StreamReader(this.caminhoArquivo))
                 {
                     List<Cidade> ListaDeCidades = new List<Cidade>();
+                    //Pulando o cabeçalho
+                    this.cabecalho = leitor.ReadLine();
                     while (!leitor.EndOfStream)
                     {
                         var linha = leitor.ReadLine();

@@ -1,0 +1,13 @@
+/home/marcos/Área de Trabalho/Projetos/Estágio/prova-estagiario/TAREFA1/obj/Debug/netcoreapp3.1/TAREFA1.csprojAssemblyReference.cache
+/home/marcos/Área de Trabalho/Projetos/Estágio/prova-estagiario/TAREFA1/obj/Debug/netcoreapp3.1/TAREFA1.AssemblyInfoInputs.cache
+/home/marcos/Área de Trabalho/Projetos/Estágio/prova-estagiario/TAREFA1/obj/Debug/netcoreapp3.1/TAREFA1.AssemblyInfo.cs
+/home/marcos/Área de Trabalho/Projetos/Estágio/prova-estagiario/TAREFA1/obj/Debug/netcoreapp3.1/TAREFA1.csproj.CoreCompileInputs.cache
+/home/marcos/Área de Trabalho/Projetos/Estágio/prova-estagiario/TAREFA1/bin/Debug/netcoreapp3.1/TAREFA1
+/home/marcos/Área de Trabalho/Projetos/Estágio/prova-estagiario/TAREFA1/bin/Debug/netcoreapp3.1/TAREFA1.deps.json
+/home/marcos/Área de Trabalho/Projetos/Estágio/prova-estagiario/TAREFA1/bin/Debug/netcoreapp3.1/TAREFA1.runtimeconfig.json
+/home/marcos/Área de Trabalho/Projetos/Estágio/prova-estagiario/TAREFA1/bin/Debug/netcoreapp3.1/TAREFA1.runtimeconfig.dev.json
+/home/marcos/Área de Trabalho/Projetos/Estágio/prova-estagiario/TAREFA1/bin/Debug/netcoreapp3.1/TAREFA1.dll
+/home/marcos/Área de Trabalho/Projetos/Estágio/prova-estagiario/TAREFA1/bin/Debug/netcoreapp3.1/TAREFA1.pdb
+/home/marcos/Área de Trabalho/Projetos/Estágio/prova-estagiario/TAREFA1/obj/Debug/netcoreapp3.1/TAREFA1.dll
+/home/marcos/Área de Trabalho/Projetos/Estágio/prova-estagiario/TAREFA1/obj/Debug/netcoreapp3.1/TAREFA1.pdb
+/home/marcos/Área de Trabalho/Projetos/Estágio/prova-estagiario/TAREFA1/obj/Debug/netcoreapp3.1/TAREFA1.genruntimeconfig.cache

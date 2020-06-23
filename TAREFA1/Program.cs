@@ -18,6 +18,7 @@ namespace TAREFA1
                 Cidade novaCidade = new Cidade(cidade.getCidade(), cidade.getPopulacao() * 2 );
                 linhasNovas.Add(novaCidade);
             }
+            escritorCSVNovoMapa.EscreverTodasAsLinhas(leitorCSVMapa.getCabecalho(), linhasNovas);
         }
     }
 }
