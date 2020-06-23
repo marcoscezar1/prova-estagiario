@@ -1,6 +1,7 @@
 using System.IO;
 using System.Collections.Generic;
 using Modelos;
+using System;
 
 namespace TAREFA1
 {
@@ -17,7 +18,7 @@ namespace TAREFA1
         //Ela tem como retorno o status da operação. Com isso é possível saber se ela foi bem sucessedida
         public int EscreverTodasAsLinhas(string cabecalho, List<Cidade> listaDeCidades)
         {
-            if (listaDeCidades.Equals(null))
+            if (!listaDeCidades.Equals(null))
             {
                 using (var escritor = new StreamWriter(caminhoArquivo))
                 {
@@ -26,6 +27,7 @@ namespace TAREFA1
                     {
                         string linha = $"{cidade.getCidade()}; {cidade.getPopulacao()}";
                         escritor.WriteLine(linha);
+                        Console.WriteLine(linha);
                     }
                     return 1;
                 }
