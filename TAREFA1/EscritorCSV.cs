@@ -2,7 +2,7 @@ using System.IO;
 using System.Collections.Generic;
 using Modelos;
 
-namespace Testes
+namespace TAREFA1
 {
     class EscritorCSV
     {

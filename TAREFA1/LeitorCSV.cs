@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System;
 using Modelos;
 
-namespace Testes
+namespace TAREFA1
 {
     class LeitorCSV
     {
