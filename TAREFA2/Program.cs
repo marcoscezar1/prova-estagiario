@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using Modelos;
 
 namespace TAREFA2
 {
@@ -6,7 +8,14 @@ namespace TAREFA2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            LeitorCSV leitorCSVMapa = new LeitorCSV(@"../mapa.csv");
+            EscritorCSV escritorCSVNovoMapa = new EscritorCSV(@"mapa2.csv");
+            List<Cidade> listaDeCidades = leitorCSVMapa.lerTodasAsLinhas();
+            
+            BubbleSort ordenador = new BubbleSort();
+            ordenador.orderna(listaDeCidades);
+            
+            escritorCSVNovoMapa.EscreverTodasAsLinhas(leitorCSVMapa.getCabecalho(), listaDeCidades);
         }
     }
 }

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using Modelos;
 
-namespace Testes
+namespace TAREFA2
 {
     /*
         Classe criada para realizar o BuubleSort 
