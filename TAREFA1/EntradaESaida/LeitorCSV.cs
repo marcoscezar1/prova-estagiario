@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System;
 using Modelos;
 
-namespace TAREFA1
+namespace EntradaESaida
 {
     class LeitorCSV
     {
@@ -23,7 +23,7 @@ namespace TAREFA1
         Método que retorna todas as linhas do arquvo csv em uma lista de objetos do tipo Cidade
         O método testa se o arquivo existe e caso o contrário, ele retorna uma mensagem de erro e a aplicação termina
         */
-        public List<Cidade> lerTodasAsLinhas()
+        public List<Cidade> LerTodasAsLinhas()
         {
             try
             {

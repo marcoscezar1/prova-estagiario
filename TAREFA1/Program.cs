@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using EntradaESaida;
 using Modelos;
 
 namespace TAREFA1
@@ -10,7 +11,7 @@ namespace TAREFA1
         {
             LeitorCSV leitorCSVMapa = new LeitorCSV(@"../mapa.csv");
             EscritorCSV escritorCSVNovoMapa = new EscritorCSV(@"mapa2.csv");
-            List<Cidade> linhasAntigas = leitorCSVMapa.lerTodasAsLinhas();
+            List<Cidade> linhasAntigas = leitorCSVMapa.LerTodasAsLinhas();
             
             List<Cidade> linhasNovas = new List<Cidade> ();
             linhasNovas.Add(linhasAntigas[0]);
