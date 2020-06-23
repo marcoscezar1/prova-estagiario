@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System;
 using Modelos;
 
-namespace TAREFA2
+namespace TAREFA3
 {
     class LeitorCSV
     {
@@ -23,7 +23,7 @@ namespace TAREFA2
         Método que retorna todos os ceps do arquivo CSV
         O método testa se o arquivo existe e caso o contrário, ele retorna uma mensagem de erro e a aplicação termina
         */
-        public List<string> lerTodasAsLinhas()
+        public List<string> lerTodosOsCeps()
         {
             try
             {
