@@ -14,7 +14,6 @@ namespace TAREFA1
             List<Cidade> linhasAntigas = leitorCSVMapa.LerTodasAsLinhas();
             
             List<Cidade> linhasNovas = new List<Cidade> ();
-            linhasNovas.Add(linhasAntigas[0]);
             foreach(Cidade cidade in linhasAntigas){
                 Cidade novaCidade = new Cidade(cidade.getCidade(), cidade.getPopulacao() * 2 );
                 linhasNovas.Add(novaCidade);
